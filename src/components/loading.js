@@ -5,7 +5,7 @@ function CircularIndeterminate() {
 
   return (
     <div>
-      <CircularProgress size={50} />
+      <CircularProgress size={50}  />
     </div>
   );
 }

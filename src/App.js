@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import web3 from './web3';
-import hello from './helloWorld';
+import hello from './saveMessage';
 import CircularIndeterminate from './components/loading';
 import TextFields from './components/input';
 
@@ -34,7 +34,7 @@ class App extends Component {
 
       this.setState({waitingMessage: "Update Complete!", waiting: false, message: message});
     } catch (err){
-      this.setState({waitingMessage: "Update Failed:" + err.message});
+      this.setState({waitingMessage: "Update Failed:" + err.message, waiting: false});
     }
 
   }
@@ -49,7 +49,10 @@ class App extends Component {
         <br/>
 
         {this.state.waitingMessage}
-        {this.state.waiting ? <CircularIndeterminate /> : null}
+        <div className="circularProgress">
+          {this.state.waiting ? <CircularIndeterminate /> : null}
+        </div>
+
 
       </div>
     );
