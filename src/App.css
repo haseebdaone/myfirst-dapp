@@ -1,5 +1,35 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 80px;
+  transform: skewY(-1deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: white;
+  margin-top: 33px;
+  margin-bottom: 0;
+  text-shadow:
+    -1px -1px 0 #262728,
+    -2px -2px 0 #262728,
+    -3px -3px 0 #262728,
+    -4px -4px 0 #262728,
+    -5px -5px 0 #262728,
+    -6px -6px 0 #262728,
+    -7px -7px 0 #262728,
+    -8px -8px 0 #262728,
+    -30px 20px 40px dimgrey
+}
+
+h1:nth-child(2) {
+  margin: 0;
+}
+
 .App {
-  margin-top: 300px;
+  margin-top: 180px;
 }
 
 .circularProgress {

@@ -41,20 +41,24 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <p>{this.state.message}</p>
-        <br/>
+      <div>
+        <h1>Ethereum</h1>
+        <h1>Blockchain</h1>
+        <div className="App">
+          <p>Your last saved message:</p>
+          <p>{this.state.message}</p>
+          <br/>
 
-        <TextFields messageSubmission={this.setMessage}/>
-        <br/>
+          <TextFields messageSubmission={this.setMessage}/>
+          <br/>
 
-        {this.state.waitingMessage}
-        <div className="circularProgress">
-          {this.state.waiting ? <CircularIndeterminate /> : null}
+          {this.state.waitingMessage}
+          <div className="circularProgress">
+            {this.state.waiting ? <CircularIndeterminate /> : null}
+          </div>
         </div>
-
-
       </div>
+
     );
   }
 }

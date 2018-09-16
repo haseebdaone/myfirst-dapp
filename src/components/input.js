@@ -34,12 +34,12 @@ class TextFields extends Component {
           onChange={this.handleChanges}
           value={this.state.values}
           id="notsearch"
-          label="Message"
+          label="Set new message"
           type="search"
           margin="normal"
         />
         <br/>
-        <Button type="submit" variant="contained" color="primary" className="button">
+        <Button type="submit" variant="contained" color="primary" className="button" style={{ marginTop: 20 }}>
           Save Message
         </Button>
       </form>
