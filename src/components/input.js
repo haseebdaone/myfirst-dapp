@@ -32,7 +32,7 @@ class TextFields extends Component {
       <form onSubmit={this.handleSubmits} autoComplete="off">
         <TextField
           onChange={this.handleChanges}
-          value={this.state.values}
+          value={this.state.value}
           id="notsearch"
           label="Set new message"
           type="search"
