@@ -48,7 +48,7 @@ class App extends Component {
         <h1>Ethereum</h1>
         <h1>Blockchain</h1>
         <div className="App">
-          <p>Your last saved message:</p>
+          <p>Last saved message:</p>
           <p>{this.state.message}</p>
           <br/>
 
