@@ -1,0 +1,3 @@
+#My First React Dapp
+
+I have an interest in Blockchain technology and Cryptocurrencies and have been learning React for a little while now so I thought I'd learn some Solidity and Web3js to just play around and see what Blockchain technology (in this case Smart contracts) is about.     This is the first DApp (Decentralized application) I have made and it's pretty simple, all it does is it saves a message the user inputs and that message is stored on the Blockchain (immutability stuff happening here) which is then retrieved and displayed on the screen.     The main aim of this was just to play around with the following technologies and learn how all of this works together to make a DApp and possibly make a more complicated DApp in the future.
