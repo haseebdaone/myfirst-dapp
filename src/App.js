@@ -25,6 +25,10 @@ class App extends Component {
   async setMessage(info) {
     this.setState({waitingMessage: "Updating message on Blockchain...", waiting: true});
 
+    if (!info) {
+      return this.setState({waitingMessage: "Update Failed: Please type in a message before saving", waiting: false});
+    }
+
     try {
       const accounts = await web3.eth.getAccounts();
       await hello.methods.changeText(info).send({
@@ -36,7 +40,6 @@ class App extends Component {
     } catch (err){
       this.setState({waitingMessage: "Update Failed:" + err.message, waiting: false});
     }
-
   }
 
   render() {
