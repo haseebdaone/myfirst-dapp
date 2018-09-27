@@ -2,7 +2,8 @@
 
 I have an interest in Blockchain technology and Cryptocurrencies and have been learning React for a little while now so I thought I'd learn some Solidity and Web3Js to just play around and see what Blockchain technology (in this case Smart contracts) is about.<br/>This is the first DApp (Decentralized application) I have made and it's pretty simple, all it does is it saves a message the user inputs and that message is stored on the Blockchain (immutability stuff happening here) which is then retrieved and displayed on the screen.<br/>The main aim of this learn how all of the following technologies work together to make a DApp and possibly make a more complicated DApp in the future.
 
-Link to website: https://fierce-reef-85256.herokuapp.com/ 
+Link to website: https://fierce-reef-85256.herokuapp.com/ Must have Metamask chrome extension to make website work !!!
+And create an Account on the extension to use the website. Read more below on how to use.
 
 ### Technologies used
 
